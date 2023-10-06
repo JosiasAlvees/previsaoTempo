@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link do CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+
+    <!--Link Icone URL-->
+    <link rel="icon" href="./imagens/iconeUrl.png" />
+
+    <title>Previsão do tempo</title>
+  </head>
+  <body>
+    <div class="caixaMaior">
+      <input
+        class="inputCidade"
+        type="text"
+        placeholder="Digite o nome da cidade"
+      />
+      <button class="botaoBuscar">
+        <img class="imgBuscar" src="./imagens/lupa.svg" alt="Lupa" />
+      </button>
+      <div class="caixaMedia">
+        <h2 class="Cidade">Nome da cidade</h2>
+        <p class="temp">21°C</p>
+
+        <div class="caixaMenor">
+          <img class="imgPrevisao" src="./imagens/previsaoIcone.png" alt="" />
+          <p class="textoPrevisao">Nublado</p> <br>
+        </div>
+
+        <p class="umidade">Umidade: 70%</p>
+
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
